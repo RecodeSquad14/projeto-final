@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* home */
+/* navbar */
+.logoeimagen {
+  padding: 10px;
+}
+* {
+  list-style: none;
+}
+.content {
+  min-height: 100vh;
+  background-color: aqua;
+}
+/* footer */
+.footerstyle {
+  background-color: #ccc;
+}
