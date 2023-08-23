@@ -15,3 +15,20 @@
 .footerstyle {
   background-color: #ccc;
 }
+
+/* Scroolbar */
+
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #1b1b1b;
+
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #838383cc;
+    border-radius: 10px;
+    border: 3px solid #838383cc;
+  }
