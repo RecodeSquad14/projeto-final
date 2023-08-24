@@ -7,6 +7,8 @@
 
 .main-content {
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 /* home */
 .about-container {
@@ -14,6 +16,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: blueviolet;
+  border-radius: 10px;
+  margin-bottom: 100px;
 }
 .about-content {
   padding: 30px;
@@ -39,20 +44,13 @@
   font-weight: 600;
   font-size: 16px;
 }
-.about-btn:hover {
-}
-.wrapper {
-  display: flex !important;
+.cards-section {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.content {
-  min-height: 100vh;
-}
-
-/* navbar */
-.logoeimagen {
-  padding: 10px;
+.card-bg {
 }
 /* footer */
 .footerstyle {
