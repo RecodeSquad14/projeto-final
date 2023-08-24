@@ -1,15 +1,40 @@
 @charset "UTF-8";
+* {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+.main-content {
+  min-height: 100vh;
+  background-color: #fff;
+}
 /* home */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-content {
+  padding: 30px;
+}
+.about-btn {
+  padding: 5px;
+  width: 70px;
+  background-color: rgb(255, 127, 232);
+  border: none;
+  border-radius: 8px;
+}
+#about-paragraph {
+  max-width: 800px;
+}
+
+.content {
+  min-height: 100vh;
+  margin-top: 50px;
+}
 /* navbar */
 .logoeimagen {
   padding: 10px;
-}
-* {
-  list-style: none;
-}
-.content {
-  min-height: 100vh;
-  background-color: rgb(172, 56, 188);
 }
 /* footer */
 .footerstyle {
