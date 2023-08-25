@@ -118,7 +118,6 @@ hr {
   height: 1px;
   width: 100%;
   background-color: #0b0909;
-  
 }
 .cards-section-conexao {
   display: flex;
@@ -135,11 +134,11 @@ hr {
   justify-content: center;
 }
 
-main.cards{
+main.cards {
   padding: 32px;
 }
 
-.container-cards{
+.container-cards {
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -175,19 +174,19 @@ main.cards section.card button {
   border: 0;
   cursor: pointer;
   font-size: 80%;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
   margin-bottom: 16px 0;
 }
 
 main.cards section.card.contact button {
-  background: linear-gradient(to right, #8e52f6, #d0b8f6);
+  background: linear-gradient(to right, #8e52f6, #2e0a69);
 }
 main.cards section.card.shop button {
-  background: linear-gradient(to right, #3E8AFF, #a7d3fb);
+  background: linear-gradient(to right, #3e8aff, #083a69);
 }
 main.cards section.card.about button {
-  background: linear-gradient(to right, #f83771, #fba5c0);
+  background: linear-gradient(to right, #f83771, #961f44);
 }
 
 main.cards section.card.contact {
@@ -202,20 +201,19 @@ main.cards section.card.about {
 
 @media screen and (max-width: 720px) {
   main.cards {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   main.cards section.card {
-      margin-left: 0;
-      margin-bottom: 32px;
+    margin-left: 0;
+    margin-bottom: 32px;
   }
 
   main.cards section.card:last-child {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   main.cards section.card button {
-      font-size: 70%;
+    font-size: 70%;
   }
-
 }
