@@ -57,6 +57,26 @@ hr {
 }
 .card-bg {
 }
+
+/* treinamento */
+.conteinerTreinamento {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  margin: auto;
+  padding: 30px;
+  gap: 20px;
+}
+
+.card-img-top {
+  padding-top: 30px;
+}
+
+.cardTreinamento {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.089);
+}
 /* footer */
 .footerstyle {
   background-color: #ccc;
