@@ -56,6 +56,10 @@ hr {
   align-items: center;
 }
 .card-bg {
+  background-image: url("../img/Design\ sem\ nome\ \(1\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* treinamento */
