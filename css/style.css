@@ -4,7 +4,11 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
-
+hr {
+  height: 1px;
+  background-color: #ccc;
+  width: 90%;
+}
 .main-content {
   background-color: #fff;
   display: flex;
@@ -16,7 +20,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: blueviolet;
+  background-color: rgb(194, 158, 227);
   border-radius: 10px;
   margin-bottom: 100px;
   margin-top: 50px;
