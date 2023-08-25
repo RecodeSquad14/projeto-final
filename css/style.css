@@ -4,16 +4,19 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
 }
+
 hr {
   height: 1px;
   background-color: #ccc;
   width: 90%;
 }
+
 .main-content {
   background-color: #fff;
   display: flex;
   flex-direction: column;
 }
+
 /* home */
 .about-container {
   display: flex;
@@ -25,36 +28,43 @@ hr {
   margin-bottom: 100px;
   margin-top: 50px;
 }
+
 .about-content {
   padding: 30px;
 }
+
 .about-title {
   max-width: 1000px;
 }
+
 #about-paragraph {
   max-width: 1000px;
   font-size: 16px;
 }
+
 .about-btn {
   padding: 10px;
-  background-color: rgb(255, 127, 232);
+  background-color: rgb(163, 42, 141);
   border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: 0.5ms;
 }
+
 .about-btn > a {
   text-decoration: none;
   color: #242424;
   font-weight: 600;
   font-size: 16px;
 }
+
 .cards-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .card-bg {
   background-image: url("../img/Design\ sem\ nome\ \(1\).png");
   background-size: cover;
@@ -81,6 +91,7 @@ hr {
 .cardTreinamento {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.089);
 }
+
 /* footer */
 .footerstyle {
   background-color: #ccc;
