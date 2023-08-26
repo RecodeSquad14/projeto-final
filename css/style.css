@@ -72,6 +72,12 @@ hr {
   background-repeat: no-repeat;
   background-position: center;
 }
+.card-bg2 {
+  background-image: url("../img/home-img/Foto\ 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /* treinamento */
 .conteinerTreinamento {
