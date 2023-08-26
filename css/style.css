@@ -6,6 +6,25 @@
   text-decoration: none;
 }
 
+:root{
+  --cor-primaria: #9274e3;
+  --cor-primaria-escura: #5d4b91; 
+  --cor-secundaria: #c481fd;
+  --cor-secundaria-escura: #78509c;
+  --cor-terciaria: #8c8cfb;
+  --cor-terciaria-escura: #545494;  
+
+  --white: #ffff;
+  --gray: #ccc;
+  --black: #242424;
+}
+
+
+p {
+  font-size: 1.4375rem;
+  text-align: justify;
+}
+
 hr {
   height: 1px;
   background-color: #ccc;
@@ -18,13 +37,13 @@ hr {
   flex-direction: column;
 }
 
-/* home */
+/* HOME */
 .about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(194, 158, 227);
+  background-color: var(--cor-primaria);
   border-radius: 10px;
   margin-bottom: 100px;
   margin-top: 50px;
@@ -45,7 +64,7 @@ hr {
 
 .about-btn {
   padding: 10px;
-  background-color: rgb(163, 42, 141);
+  background-color: var(--cor-secundaria);
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -73,15 +92,14 @@ hr {
   background-position: center;
 }
 .card-bg2 {
-  background-image: url("../img/home-img/Foto\ 2.png");
+  background-image: url("../img/home-img/background2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-/* treinamento */
+/* TREINAMENTO */
 .conteinerTreinamento {
-  background-color: aquamarine;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -99,31 +117,16 @@ hr {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.089);
 }
 
-/* footer */
+/* FOOTER */
 .footerstyle {
-  background-color: #ccc;
-}
-
-/* Scroolbar */
-
-*::-webkit-scrollbar {
-  width: 10px;
-}
-
-*::-webkit-scrollbar-track {
-  background: #fff;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: #b1afafed;
-  /* border-radius: 0px; */
+  background-color: var(--gray);
 }
 
 /*CONEXÃO*/
 hr {
   height: 1px;
   width: 100%;
-  background-color: #0b0909;
+  background-color: var(--black);
 }
 .cards-section-conexao {
   display: flex;
@@ -151,7 +154,7 @@ main.cards {
 
 main.cards section.card {
   text-align: center;
-  background: white;
+  background: var(--white);
   padding: 2rem;
   border-radius: 8px;
   max-height: 468px;
@@ -181,28 +184,28 @@ main.cards section.card button {
   cursor: pointer;
   font-size: 80%;
   font-weight: 600;
-  color: #fff;
+  color: var(--white);
   margin-bottom: 16px 0;
 }
 
 main.cards section.card.contact button {
-  background: linear-gradient(to right, #8e52f6, #2e0a69);
+  background: linear-gradient(to right, var(--cor-primaria), var(--cor-primaria-escura));
 }
 main.cards section.card.shop button {
-  background: linear-gradient(to right, #3e8aff, #083a69);
+  background: linear-gradient(to right, var(--cor-secundaria), var(--cor-secundaria-escura));
 }
 main.cards section.card.about button {
-  background: linear-gradient(to right, #f83771, #961f44);
+  background: linear-gradient(to right, var(--cor-terciaria), var(--cor-terciaria-escura));
 }
 
 main.cards section.card.contact {
-  box-shadow: 20px 20px 50px -30px #7a2ff4;
+  box-shadow: 20px 20px 50px -30px var(--cor-primaria);
 }
 main.cards section.card.shop {
-  box-shadow: 20px 20px 50px -30px #1873d6;
+  box-shadow: 20px 20px 50px -30px var(--cor-secundaria);
 }
 main.cards section.card.about {
-  box-shadow: 20px 20px 50px -30px #f01a5e;
+  box-shadow: 20px 20px 50px -30px var(--cor-terciaria);
 }
 
 @media screen and (max-width: 720px) {
@@ -222,4 +225,18 @@ main.cards section.card.about {
   main.cards section.card button {
     font-size: 70%;
   }
+}
+
+/* SCROOLBAR */
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--gray);
 }
