@@ -13,7 +13,6 @@
   --cor-secundaria-escura: #78509c;
   --cor-terciaria: #8c8cfb;
   --cor-terciaria-escura: #545494;  
-
   --white: #ffff;
   --gray: #ccc;
   --black: #242424;
@@ -21,7 +20,7 @@
 
 
 p {
-  font-size: 1.4375rem;
+  font-size: 1.100rem;
   text-align: justify;
 }
 
@@ -128,6 +127,7 @@ hr {
   margin-bottom: 1rem;
   border-radius: 15px !important;
 }
+
 
 /* FOOTER */
 .footerstyle {
