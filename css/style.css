@@ -20,7 +20,7 @@
 
 
 p {
-  font-size: 1.100rem;
+  font-size: 1.050rem;
   text-align: justify;
 }
 
@@ -43,10 +43,18 @@ hr {
   justify-content: center;
   align-items: center;
   background-color: var(--cor-primaria);
-  border-radius: 10px;
-  margin-bottom: 100px;
-  margin-top: 50px;
+  /* border-radius: 10px; SÓ UMA SUGESTÃO*/
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
+
+/* SÓ UMA SUGESTÃO */
+.about-index {
+  padding-left: 0px !important; 
+  padding-right: 0px !important; 
+  border-radius: 0px !important; 
+}
+/* SÓ UMA SUGESTÃO */
 
 .about-content {
   padding: 30px;
@@ -58,7 +66,7 @@ hr {
 
 #about-paragraph {
   max-width: 1000px;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .about-btn {
@@ -87,14 +95,16 @@ hr {
 .card-bg {
   background-image: url("../img/Design\ sem\ nome\ \(1\).png");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  /*SÓ UMA SUGESTÃO*/
+  background-size: cover;
+  background-attachment: fixed;
 }
 .card-bg2 {
   background-image: url("../img/home-img/background2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  /*COLOCAR O MESMO AQUI?*/ 
 }
 
 /* TREINAMENTO */
