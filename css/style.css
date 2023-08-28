@@ -19,7 +19,11 @@
 }
 
 p {
+<<<<<<< HEAD
   font-size: 1.05rem;
+=======
+  font-size: 1.050rem;
+>>>>>>> fb91586c676003545c687ab6d6657f9780b4cc32
   text-align: justify;
 }
 
@@ -49,9 +53,15 @@ hr {
 
 /* SÓ UMA SUGESTÃO */
 .about-index {
+<<<<<<< HEAD
   padding-left: 0px !important;
   padding-right: 0px !important;
   border-radius: 0px !important;
+=======
+  padding-left: 0px !important; 
+  padding-right: 0px !important; 
+  border-radius: 0px !important; 
+>>>>>>> fb91586c676003545c687ab6d6657f9780b4cc32
 }
 /* SÓ UMA SUGESTÃO */
 
@@ -103,7 +113,11 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+<<<<<<< HEAD
   /*COLOCAR O MESMO AQUI?*/
+=======
+  /*COLOCAR O MESMO AQUI?*/ 
+>>>>>>> fb91586c676003545c687ab6d6657f9780b4cc32
 }
 
 /* TREINAMENTO */
