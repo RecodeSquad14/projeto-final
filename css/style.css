@@ -6,21 +6,20 @@
   text-decoration: none;
 }
 
-:root{
+:root {
   --cor-primaria: #9274e3;
-  --cor-primaria-escura: #5d4b91; 
+  --cor-primaria-escura: #5d4b91;
   --cor-secundaria: #c481fd;
   --cor-secundaria-escura: #78509c;
   --cor-terciaria: #8c8cfb;
-  --cor-terciaria-escura: #545494;  
+  --cor-terciaria-escura: #545494;
   --white: #ffff;
   --gray: #ccc;
   --black: #242424;
 }
 
-
 p {
-  font-size: 1.100rem;
+  font-size: 1.05rem;
   text-align: justify;
 }
 
@@ -43,10 +42,18 @@ hr {
   justify-content: center;
   align-items: center;
   background-color: var(--cor-primaria);
-  border-radius: 10px;
-  margin-bottom: 100px;
-  margin-top: 50px;
+  /* border-radius: 10px; SÓ UMA SUGESTÃO*/
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
+
+/* SÓ UMA SUGESTÃO */
+.about-index {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  border-radius: 0px !important;
+}
+/* SÓ UMA SUGESTÃO */
 
 .about-content {
   padding: 30px;
@@ -58,7 +65,7 @@ hr {
 
 #about-paragraph {
   max-width: 1000px;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .about-btn {
@@ -87,14 +94,16 @@ hr {
 .card-bg {
   background-image: url("../img/Design\ sem\ nome\ \(1\).png");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  /*SÓ UMA SUGESTÃO*/
+  background-size: cover;
+  background-attachment: fixed;
 }
 .card-bg2 {
   background-image: url("../img/home-img/background2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  /*COLOCAR O MESMO AQUI?*/
 }
 
 /* TREINAMENTO */
@@ -128,10 +137,12 @@ hr {
   border-radius: 15px !important;
 }
 
-
 /* FOOTER */
 .footerstyle {
   background-color: var(--gray);
+}
+.icon-img {
+  width: 20%;
 }
 
 /*CONEXÃO*/
@@ -201,13 +212,25 @@ main.cards section.card button {
 }
 
 main.cards section.card.contact button {
-  background: linear-gradient(to right, var(--cor-primaria), var(--cor-primaria-escura));
+  background: linear-gradient(
+    to right,
+    var(--cor-primaria),
+    var(--cor-primaria-escura)
+  );
 }
 main.cards section.card.shop button {
-  background: linear-gradient(to right, var(--cor-secundaria), var(--cor-secundaria-escura));
+  background: linear-gradient(
+    to right,
+    var(--cor-secundaria),
+    var(--cor-secundaria-escura)
+  );
 }
 main.cards section.card.about button {
-  background: linear-gradient(to right, var(--cor-terciaria), var(--cor-terciaria-escura));
+  background: linear-gradient(
+    to right,
+    var(--cor-terciaria),
+    var(--cor-terciaria-escura)
+  );
 }
 
 main.cards section.card.contact {
@@ -252,3 +275,5 @@ main.cards section.card.about {
 *::-webkit-scrollbar-thumb {
   background-color: var(--gray);
 }
+
+/* responsividades */

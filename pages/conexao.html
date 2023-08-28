@@ -17,7 +17,7 @@
   <body>
     
     <!-- Inicio navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top"">
       <div class="container-fluid">
         
         <button
@@ -161,27 +161,58 @@
           <h5>Menu</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-1"
-              ><a href="../index.html" class="nav-link p-0 text-body-secondary"
+              ><a href="index.html" class="nav-link p-0 text-body-secondary"
                 >Inicio</a
               ></li
             >
             <li class="nav-item mb-1"
-              ><a href="conexao.html" class="nav-link p-0 text-body-secondary"
+              ><a href="pages/conexao.html" class="nav-link p-0 text-body-secondary"
                 >Conexão</a
               ></li
             >
             <li class="nav-item mb-1"
-              ><a href="treinamento.html" class="nav-link p-0 text-body-secondary"
+              ><a href="pages/treinamento.html" class="nav-link p-0 text-body-secondary"
                 >Treinamento</a
               ></li
             >
+           
             <li class="nav-item mb-1"
-              ><a href="contatos.html" class="nav-link p-0 text-body-secondary"
+              ><a href="pages/contatos.html" class="nav-link p-0 text-body-secondary"
                 >Contatos</a
               ></li
             >
           </ul>
-        </div>               
+     
+        </div>
+        <div class="col-6 offset-md-1 col-md-1 mb-1">
+          <h5>Redes</h5>
+          
+          <ul class="nav flex-column">
+            <li class="nav-item mb-1"
+              >
+              <a href="#" target="_blank">
+                <img src="../img/icones/whatsapp.png" alt="whatsapp" class="icon-img">
+              </a>
+              </li
+            >
+            <li class="nav-item mb-1"
+              >
+              <a href="#" target="_blank">
+                <img src="../img/icones/instagram.png" alt="instagram" class="icon-img">
+              </a>
+              </li
+            >
+            <li class="nav-item mb-1"
+              >
+              <a href="#" target="_blank">
+                <img src="../img/icones/facebook.png" alt="facebook" class="icon-img">
+              </a>
+              </li
+            >
+           
+            
+          </ul>
+        </div>                   
 
         <div class="col-6  offset-md-1 mb-1">
           <form>
@@ -192,7 +223,7 @@
             <div class="mb-3">
               <label for="exampleFormControlTextarea1" class="form-label">Em que podemos ajudar?</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              <button type="submit" class="btn btn-primary mb-3 mt-3">Enviar</button>
+              <button type="submit" class="btn btn-dark mb-3 mt-3">Enviar</button>
             </div>
           </form>
         </div>
