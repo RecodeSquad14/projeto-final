@@ -279,4 +279,30 @@ main.cards section.card.about {
   background-color: var(--gray);
 }
 
+/*SOBRE NÓS*/
+
+.div-sobrenos {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.card-us {
+  padding: 10px;
+  margin: 1px;
+}
+
+/*Remover?*/
+.img-us {
+  border-radius: 90%;
+}
+
+.title-us {
+ text-align: center;
+ margin-top: 30px;
+}
+
+.p-us {
+  text-align: center;
+}
+
 /* responsividades */
