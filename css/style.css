@@ -110,7 +110,6 @@ hr {
 .card-bg {
   background-image: url("../img/Design\ sem\ nome\ \(1\).png");
   background-size: cover;
-  /*SÓ UMA SUGESTÃO*/
 }
 
 .card-bg2 {
@@ -118,7 +117,6 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /*COLOCAR O MESMO AQUI?*/
 }
 
 /* TREINAMENTO */
@@ -135,11 +133,11 @@ hr {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-
   box-shadow: 20px 20px 50px -30px var(--cor-primaria);
 }
 
 /* FOOTER */
+
 .footerstyle {
   background-color: var(--gray);
 }
@@ -148,6 +146,7 @@ hr {
 }
 
 /*CONEXÃO*/
+
 hr {
   height: 1px;
   width: 100%;
