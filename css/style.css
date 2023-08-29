@@ -38,7 +38,6 @@ hr {
 /* HOME */
 .about-container {
   display: flex;
-
   justify-content: center;
   align-items: center;
   background: rgb(2, 0, 36);
@@ -305,4 +304,21 @@ main.cards section.card.about {
   text-align: center;
 }
 
-/* responsividades */
+/* Responsividades */
+
+@media screen and (max-width: 720px) {
+  /* .about-container {
+  flex-direction: column;
+} */
+  .about-img {
+    display: none;
+  }
+  .about-title {
+    max-width: 1000px;
+    font-weight: 700;
+  }
+  #about-paragraph {
+    max-width: 1000px;
+    font-size: 12px;
+  }
+  }
