@@ -38,13 +38,20 @@ hr {
 /* HOME */
 .about-container {
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
   align-items: center;
-  background-color: var(--cor-primaria);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    117deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(146, 116, 227, 1) 0%,
+    rgba(196, 129, 253, 1) 80%
+  );
   /* border-radius: 10px; SÓ UMA SUGESTÃO*/
   margin-bottom: 40px;
   margin-top: 20px;
+  min-height: 80vh;
 }
 
 /* SÓ UMA SUGESTÃO */
@@ -57,10 +64,17 @@ hr {
 
 .about-content {
   padding: 30px;
+  width: 70%;
 }
-
+.about-img {
+  width: 30%;
+}
+#hero-img {
+  width: 70%;
+}
 .about-title {
-  max-width: 1000px;
+  max-width: 950px;
+  font-weight: 600;
 }
 
 #about-paragraph {
@@ -69,12 +83,15 @@ hr {
 }
 
 .about-btn {
-  padding: 10px;
-  background-color: var(--cor-secundaria);
-  border: none;
-  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 0;
   cursor: pointer;
-  transition: 0.5ms;
+  font-size: 80%;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 16px 0;
 }
 
 .about-btn > a {
@@ -95,8 +112,6 @@ hr {
   background-image: url("../img/Design\ sem\ nome\ \(1\).png");
   background-size: cover;
   /*SÓ UMA SUGESTÃO*/
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .card-bg2 {
@@ -108,34 +123,21 @@ hr {
 }
 
 /* TREINAMENTO */
-.conteinerTreinamento {
+.conteiner-treinamento {
   display: flex;
+  align-items: center;
   justify-content: center;
+  min-height: 90vh;
   flex-wrap: wrap;
-  min-height: 100vh;
-  margin: auto;
-  padding: 30px;
-  gap: 20px;
+  gap: 10px;
 }
+.card-treinamento {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 
-.card-img-top {
-  padding-top: 30px;
-}
-
-.cardTreinamento {
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.089);
-}
-
-.p-treinamento {
-  font-size: 0.9rem;
-  text-indent: 20px;
-}
-
-.btn-treinamento {
-  width: 40%;
-  margin: auto;
-  margin-bottom: 1rem;
-  border-radius: 15px !important;
+  box-shadow: 20px 20px 50px -30px var(--cor-primaria);
 }
 
 /* FOOTER */
