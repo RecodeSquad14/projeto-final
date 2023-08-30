@@ -290,9 +290,9 @@ main.cards section.card.about {
 }
 
 /*Remover?*/
-.img-us {
-  border-radius: 90%;
-}
+/* .img-us {
+  border-radius: 10px;
+} */
 
 .title-us {
  text-align: center;
