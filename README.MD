@@ -19,10 +19,12 @@ Eu sou uma pessoa desenvolvedora full-stack...
 ## Screenshots
 ### Banco de dados 
 
-Modelo conceitual
+- Modelo conceitual
+
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-Modelo físico
+- Modelo físico
+
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 ## Envolvidos no projeto
