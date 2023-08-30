@@ -20,6 +20,8 @@
       crossorigin="anonymous"
     />
     <!-- Importação do arquivo CSS do bootstrap -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- Importação do AOS -->
   </head>
   <body>
 
@@ -66,7 +68,8 @@
     <!-- Final navbar -->
 
     <!-- conteudo -->
-              
+      
+    <!-- Section início -->
     <section class="container-fluid main-content about-index">
       <section class="about-container container-fluid">
         <div class="about-content">
@@ -79,17 +82,19 @@
         </div>
       </section>      
     </section>
+    <!-- Section final -->
 
+    <!-- Início do conteúdo -->
     <section class="cards-section">
       <div class="card mb-3 card-bg" style="max-width: 95%; border:none;min-height:50vh;">
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right">
             <img src="img/home-img/conexao.png" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h3 class="card-title mb-5">Conecte-se</h3>
-              <p class="card-text mt-5" style="font-size: 1.4375rem;">Exploramos a emocionante possibilidade de desenvolver uma página de conexão que funcione como um sistema de combinação entre empresas e profissionais neurodiversos. Inspirados em plataformas de "matchmaking", nossa visão é criar um espaço onde empresas em busca de talentos únicos possam ser conectadas.</p>
+              <p class="card-text mt-5" style="font-size: 1.4375rem;" <div data-aos="fade-left">Exploramos a emocionante possibilidade de desenvolver uma página de conexão que funcione como um sistema de combinação entre empresas e profissionais neurodiversos. Inspirados em plataformas de "matchmaking", nossa visão é criar um espaço onde empresas em busca de talentos únicos possam ser conectadas.</p>
               </div>
           </div>
         </div>
@@ -101,11 +106,11 @@
           <div class="col-md-8">
             <div class="card-body">
               <h3 class="card-title  mb-5">Treinamento em 3 etapas</h3>
-              <p class="card-text mt-5"  style="font-size: 1.4375rem;">Planejamos uma página de treinamento para empresas, famílias e especialistas em neurodiversidade, visando capacitar colaborações produtivas com profissionais neurodiversos e fornecer orientações essenciais. Essa iniciativa busca fortalecer a inclusão e o entendimento mútuo.</p>
+              <p class="card-text mt-5"  style="font-size: 1.4375rem;" data-aos="fade-right">Planejamos uma página de treinamento para empresas, famílias e especialistas em neurodiversidade, visando capacitar colaborações produtivas com profissionais neurodiversos e fornecer orientações essenciais. Essa iniciativa busca fortalecer a inclusão e o entendimento mútuo.</p>
              
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left">
             <img src="img/home-img/treinamento.png" class="img-fluid rounded-start" alt="...">
           </div>
         </div>
@@ -115,13 +120,13 @@
       
       <div class="card mb-3 mt-5 card-bg" style="max-width: 95%; border:none;min-height:50vh;">
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right">
             <img src="img/home-img/squad14.png" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h3 class="card-title mb-5">Quem somos nós</h3>
-              <p class="card-text mt-5"  style="font-size: 1.4375rem;">Nós, do Squad 14 da Recodepro 2023, somos uma equipe de seis alunos do bootcamp de fullstack. Estamos criando um site neurodiverso que reflete nossa paixão pelo desenvolvimento web e nosso compromisso com a inclusão.</p>
+              <p class="card-text mt-5"  style="font-size: 1.4375rem;" data-aos="fade-left">Nós, do Squad 14 da Recodepro 2023, somos uma equipe de seis alunos do bootcamp de fullstack. Estamos criando um site neurodiverso que reflete nossa paixão pelo desenvolvimento web e nosso compromisso com a inclusão.</p>
               
             </div>
           </div>
@@ -132,7 +137,7 @@
 
     <!-- footer -->
     <div class="container-fluid footerstyle">
-      <footer class="py-5 ">
+      <footer class="py-5">
         <div class="row">
           <div class="col-6 offset-md-1 col-md-1 mb-1">
             <h5>Menu</h5>
@@ -192,5 +197,12 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <!-- Importação do arquivo JS do bootstrap -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- Importação do AOS -->
+
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>
