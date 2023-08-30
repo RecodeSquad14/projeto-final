@@ -123,10 +123,12 @@ hr {
 .conteiner-treinamento {
   display: flex;
   align-items: center;
+  align-items: stretch;
   justify-content: center;
   min-height: 90vh;
   flex-wrap: wrap;
   gap: 10px;
+  margin: 20px 0px 20px 0px;
 }
 .card-treinamento {
   display: flex;
@@ -134,6 +136,18 @@ hr {
   justify-content: space-around;
   align-items: center;
   box-shadow: 20px 20px 50px -30px var(--cor-primaria);
+}
+
+.card-treinamento1 {
+  box-shadow: 20px 20px 50px -30px var(--cor-primaria);
+}
+
+.card-treinamento2 {
+  box-shadow: 20px 20px 50px -30px var(--cor-secundaria);
+}
+
+.card-treinamento3 {
+  box-shadow: 20px 20px 50px -30px var(--cor-terciaria); 
 }
 
 /* FOOTER */
