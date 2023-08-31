@@ -4,7 +4,8 @@
 
 O site Neuro Conexão tem como objetivo ajudar pessoas neurodivergentes a se conectar com empresas, além de auxiliar através de treinamentos, tanto pessoas neurodivergentes, empresas, pessoas de suporte e familiares durante o processo de empregabilidade.
 
-
+# Link para nosso site 
+<a href="https://recodesquad14.github.io/projeto-final/index.html" target="_blank"></a>
 ## Documentação de cores
 
 As cores principais utilizadas no projeto foram escolhidas de modo a passar uma agradabilidade para qualquer tipo de pessoa, tendo um contraste e equilíbrio entre si, além de tons violetas remeterem a diversidade, inovação e tecnologia. 
@@ -22,7 +23,7 @@ As cores principais utilizadas no projeto foram escolhidas de modo a passar uma 
 
  <img src="BancodeDados/ModeloConceitual.jpg" alt="ModeloConceitual">
 
-- Modelo físico
+- Modelo Lógico
 
 <img src="BancodeDados/ModeloLogico.png" alt="ModeloLogico">
 
