@@ -34,11 +34,11 @@ As cores principais utilizadas no projeto foram escolhidas de modo a passar uma 
 
 - Alfannya Tannyane Santos Abrantes [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alfanya-a-277773bb/)
 
-- Ana Clara Correia Amorim dos Santos [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anaclaracamorim/)
+- Ana Clara Correia Amorim dos Santos (Líder) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anaclaracamorim/)
 
 - Anderson Borba Silva [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anderson-borba-silva-54592481/)
 
-- Anderson Soares da Rocha Silva [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anderson-rocha-silva/)
+- Anderson Soares da Rocha Silva (Vice-Líder) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anderson-rocha-silva/)
 
 
 ## Stacks utilizadas
