@@ -6,6 +6,7 @@ O site Neuro Conexão tem como objetivo ajudar pessoas neurodivergentes a se con
 
 # Link para nosso site 
 <h1><a href="https://recodesquad14.github.io/projeto-final/index.html" target="_blank"></a></h1>
+
 ## Documentação de cores
 
 As cores principais utilizadas no projeto foram escolhidas de modo a passar uma agradabilidade para qualquer tipo de pessoa, tendo um contraste e equilíbrio entre si, além de tons violetas remeterem a diversidade, inovação e tecnologia. 
