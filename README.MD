@@ -20,11 +20,11 @@ As cores principais utilizadas no projeto foram escolhidas de modo a passar uma 
 
 - Modelo conceitual
 
-<a href="/BancodeDados/ModeloConceitual.jpg"></a>
+ <img src="BancodeDados/ModeloConceitual.jpg" alt="ModeloConceitual">
 
 - Modelo físico
 
-<a href="/BancodeDados/ModeloLogico.png"></a>
+<img src="BancodeDados/ModeloLogico.png" alt="ModeloLogico">
 
 ## Envolvidos no projeto
 ### Alunos: 
