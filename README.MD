@@ -1,48 +1,47 @@
-# Projeto Recode Pro 2023
 
-## Site Neuro Conexão
+# Projeto Recode Pro 2023 - Site Neuro Conexão 
+### 🚀 Sobre o projeto
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
+O site Neuro Conexão tem como objetivo ajudar pessoas neurodivergentes a se conectar com empresas, além de auxiliar através de treinamentos, tanto pessoas neurodivergentes, empresas, pessoas de suporte e familiares durante o processo de empregabilidade.
 
-## 🚀 Sobre o projeto
-
-Eu sou uma pessoa desenvolvedora full-stack...
 
 ## Documentação de cores
 
-| Cor            | Hexadecimal                                                      |
-| -------------- | ---------------------------------------------------------------- |
-| Cor primária   | ![#9274e3](https://via.placeholder.com/10/9274e3?text=+) #9274e3 |
-| Cor secundária | ![#c481fd](https://via.placeholder.com/10/c481fd?text=+) #c481fd |
-| Cor terciária  | ![#8c8cfb](https://via.placeholder.com/10/8c8cfb?text=+) #8c8cfb |
+As cores principais utilizadas no projeto foram escolhidas de modo a passar uma agradabilidade para qualquer tipo de pessoa, tendo um contraste e equilíbrio entre si, além de tons violetas remeterem a diversidade, inovação e tecnologia. 
+
+| Cor               | Hexadecimal                                                |
+| ----------------- | ---------------------------------------------------------------- |
+| Cor primária       | ![#9274e3](https://via.placeholder.com/10/9274e3?text=+) #9274e3 |
+| Cor secundária       | ![#c481fd](https://via.placeholder.com/10/c481fd?text=+) #c481fd |
+| Cor terciária       | ![#8c8cfb](https://via.placeholder.com/10/8c8cfb?text=+) #8c8cfb |
 
 ## Screenshots
-
-### Banco de dados
+### Banco de dados 
 
 - Modelo conceitual
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<a href="/BancodeDados/ModeloConceitual.jpg"></a>
 
 - Modelo físico
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<a href="/BancodeDados/ModeloLogico.png"></a>
 
 ## Envolvidos no projeto
+### Alunos: 
+- Aline Conceição Monteiro [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 
-### Alunos:
+- Aline Freire da Silva Santos [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 
-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+- Alfannya Tannyane Santos Abrantes [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+
+- Ana Clara Correia Amorim dos Santos [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+- Anderson Borba Silva [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+- Anderson Soares da Rocha Silva [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+
 
 ## Stacks utilizadas
 
 **Front-end:** HTML, CSS
 
-<!-- Direitos das imagens -->
+**Back-end:** Br-modelo
 
-Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
