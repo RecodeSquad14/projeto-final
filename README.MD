@@ -4,8 +4,7 @@
 
 O site Neuro Conexão tem como objetivo ajudar pessoas neurodivergentes a se conectar com empresas, além de auxiliar através de treinamentos, tanto pessoas neurodivergentes, empresas, pessoas de suporte e familiares durante o processo de empregabilidade.
 
-# Link para nosso site 
-<h1><a href="https://recodesquad14.github.io/projeto-final/index.html" target="_blank"></a></h1>
+<h1><a href="https://recodesquad14.github.io/projeto-final/index.html" target="_blank"> Link para nosso site</a></h1>
 
 ## Documentação de cores
 
