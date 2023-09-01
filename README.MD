@@ -1,5 +1,5 @@
 
-# Projeto Recode Pro 2023 - Site Neuro Conexão 
+# Projeto Recode Pro 2023 - Site Neuro Conexão - Squad 14
 ### 🚀 Sobre o projeto
 
 O site Neuro Conexão tem como objetivo ajudar pessoas neurodivergentes a se conectar com empresas, além de auxiliar através de treinamentos, tanto pessoas neurodivergentes, empresas, pessoas de suporte e familiares durante o processo de empregabilidade.
@@ -23,7 +23,7 @@ As cores principais utilizadas no projeto foram escolhidas de modo a passar uma 
 
  <img src="BancodeDados/ModeloConceitual.jpg" alt="ModeloConceitual">
 
-- Modelo Lógico
+- Membros do projeto
 
 <img src="BancodeDados/ModeloLogico.png" alt="ModeloLogico">
 
