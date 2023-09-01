@@ -23,11 +23,11 @@ As cores principais utilizadas no projeto foram escolhidas de modo a passar uma 
 
  <img src="BancodeDados/ModeloConceitual.jpg" alt="ModeloConceitual">
 
-- Membros do projeto
+- Modelo lógico
 
 <img src="BancodeDados/ModeloLogico.png" alt="ModeloLogico">
 
-## Envolvidos no projeto
+## Membro do projeto
 ### Alunos: 
 - Aline Conceição Monteiro [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aline-monteiro-0a7212128/)
 
