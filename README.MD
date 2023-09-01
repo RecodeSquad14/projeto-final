@@ -16,7 +16,7 @@ As cores principais utilizadas no projeto foram escolhidas de modo a passar uma 
 | Cor secundária       | ![#c481fd](https://via.placeholder.com/10/c481fd?text=+) #c481fd |
 | Cor terciária       | ![#8c8cfb](https://via.placeholder.com/10/8c8cfb?text=+) #8c8cfb |
 
-## Screenshots
+## 📷 Screenshots
 ### Banco de dados 
 
 - Modelo conceitual
